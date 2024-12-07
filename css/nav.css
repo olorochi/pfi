@@ -1,0 +1,15 @@
+a {
+    width: fit-content;
+    font-size: 10vw;
+    max-width: inherit;
+    text-decoration: none;
+    margin: 2vw 3vw 2vw 20vw;
+}
+
+div {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

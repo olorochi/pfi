@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+main {
+    background-color: white;
+}
+
+iframe {
+    border: 0px;
+}
+
+h1 {
+    font-size: calc(3vh + 1.5vmax);
+}
+
+h2 {
+    font-size: calc(2vh + 1vmax);
+}
+
+h3 {
+    font-size: calc(1.5vh + 0.5vmax);
+}
+
+p, ul, ol, a {
+    font-size: calc(1.2vh + 0.6vmax);
+}
+
+td, th {
+    font-size: calc(0.8vh + 0.5vmax);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    height: calc(4vh + 2vmax);
+}
+
+header>h1 {
+    position: absolute;
+}
+
+nav {
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+}
+
+nav>.dropbtn {
+    margin: 1vh;
+    height: calc(2.5vh + 1.5vmax);
+}
+
+.navmenu {
+    display: none;
+    position: fixed;
+    top: 0px;
+    width: 20vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+nav:hover .navmenu {
+    display: block;
+}
+
+.foo {
+    width: 100vw;
+    height: 12vh;
+}
+
+#gallery {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    margin: 0.5vh;
+    border: 0.05vh solid #ccc;
+}
+
+.card:hover {
+    border: 0.1vh solid #777;
+}
+
+
+.card > .content {
+    width: 100%;
+    min-width: 35vh;
+    height: auto;
+}
+
+.desc {
+    padding: 1.5vh;
+    font-size: 1.8vh;
+}
+
+.rainbow {
+    background-image: linear-gradient(to right, violet, indigo, blue, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: fit-content;
+    color: transparent;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.red {
+    color: red;
+}
+
+.orangered {
+    color: rgb(255, 102, 0);
+}
+
+.orange {
+    color: orange;
+}
+
+.orangyyellow {
+    color: rgb(255, 208, 0);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.yellowgreen {
+    color: rgb(200, 255, 0);
+}
+
+.greenyellow {
+    color: greenyellow;
+}
+
+.lime {
+    color: lime;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.aqua {
+    color: aquamarine;
+}
+
+.lightgreen {
+    color: rgb(0, 252, 147);
+}

@@ -1,0 +1,70 @@
+main {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: auto auto;
+    overflow: hidden;
+
+    grid-template-areas: 
+        "p i a"
+        "t t a";
+}
+
+main > * {
+    padding: 2vw;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: purple;
+}
+
+ul {
+    margin-top: 5%;
+} 
+
+tr > * {
+    border: 2px solid black;
+    padding: 1%;
+}
+
+table {
+    grid-area: t;
+    width: 90%;
+    margin: 2%;
+    border-collapse: collapse;
+}
+
+main > div {
+    grid-area: p;
+}
+
+img {
+    grid-area: i;
+    max-width: 40vw;
+}
+
+aside {
+    grid-area: a;
+    background-color: green;
+}
+
+aside > p {
+    font-size: calc(1vh + 0.5vmax);
+}
+
+@media screen and (max-width: 900px) {
+    
+    img {
+        display: none;
+    }
+
+    main {
+        grid-template-areas: 
+            "p p a"
+            "t t a";
+    }
+
+}

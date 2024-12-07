@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/sujet.css">
+    <title>I use Arch btw</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/3-bar-menu-icon-26.png" alt="nav menu" class="dropbtn">
+            <iframe class="navmenu" src="nav.html"></iframe>
+        </nav>
+        <h1>I use Arch btw</h1>
+    </header>
+
+    <main>
+        <div>
+            <p>
+                'I use Arch btw' est un language de programmation basé sur le
+                <a target="_blank" href="https://fr.wikipedia.org/wiki/Brainfuck">Brainfuck</a> dans lequel les mots
+                clés sont remplacées par les mots 'i', 'use', 'arch', 'linux', 'btw', 'by', 'the', 'way' et 'gentoo'.
+                <br><br>
+                Les programmes I use Arch btw ont accès aux ressources suivantes:
+            </p>
+
+            <ul>
+                <li>65,536 bytes de mémoire de travail</li>
+                <li>Un pointer initialisé pour pointer à la première byte de la mémoire de travail</li>
+                <li>Un fichier intrant</li>
+                <li>Un fichier extrant</li>
+            </ul>
+        </div>
+
+        <table>
+            <tr>
+                <th>Mot clé</th>
+                <th>Utilité</th>
+            </tr>
+            <tr>
+                <td>i</td>
+                <td>Incrémente le pointeur par 1. Retourne une erreur si le pointeur pointe au dernier byte de la
+                    mémoire de travail</td>
+            </tr>
+            <tr>
+                <td>use</td>
+                <td>Décrémente le pointeur par 1. Retourne une erreur si le pointeur pointe au premier byte de la
+                    mémoire de travail</td>
+            </tr>
+            <tr>
+                <td>arch</td>
+                <td>Incrémente la valeur pointée par le pointeur de 1. Si la valeur était 255, elle devient 0.</td>
+            </tr>
+            <tr>
+                <td>btw</td>
+                <td>Décrémente la valeur pointée par le pointeur de 1. Si la valeur était 0, elle devient 255.</td>
+            </tr>
+            <tr>
+                <td>by</td>
+                <td>Assigne un caractère du fichier intrant à la valeur pointée.</td>
+            </tr>
+            <tr>
+                <td>the</td>
+                <td>Si la valeur pointée est pas 0, continue l'éxécution après le mot clé 'way' correspondant.</td>
+            </tr>
+            <tr>
+                <td>way</td>
+                <td>Si la valeur pointée n'est pas 0, continue l'éxécution après le mot clé 'the' correspondant.
+                </td>
+            </tr>
+            <tr>
+                <td>gentoo</td>
+                <td>Appelle le debugger</td>
+            </tr>
+        </table>
+
+        <img src="images/yourbrainonarch.png" alt="propagande arch">
+
+        <aside>
+            <p>
+                "Hello, world!" en i use Arch btw:
+                <br><br>
+                linux the linux linux linux linux linux linux linux i arch use way i linux btw
+                linux the linux i arch arch arch arch arch use way i arch arch btw arch arch
+                arch arch arch arch arch btw btw arch arch arch btw the linux i arch arch arch
+                arch arch use way i arch btw linux linux linux linux linux linux linux linux
+                linux linux linux linux btw linux linux linux the linux i arch arch arch use way
+                i btw linux the linux linux linux i arch use way i linux linux linux btw arch
+                arch arch btw linux linux linux linux linux linux btw linux linux linux linux
+                linux linux linux linux btw linux the linux linux linux i arch use way i btw
+                the linux linux linux i arch use way i linux btw
+            </p>
+        </aside>
+    </main>
+
+    <iframe class="foo" src="footer.html"></iframe>
+</body>
+
+</html>

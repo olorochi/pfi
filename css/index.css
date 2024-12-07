@@ -1,0 +1,85 @@
+h2, h3 {
+    padding: 2vh 0vh;
+}
+
+p {
+    padding: 1vh 0vh;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: purple;
+}
+
+main {
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    text-align: center;
+    margin-left: 5vw;
+}
+
+#gallery {
+    flex-direction: column;
+}
+
+#map {
+    border-bottom: 0.05vh solid #ccc;
+    height: 40vh;
+    width: 100%;
+}
+
+.card:hover #map {
+    border-bottom: 0.1vh solid #777;
+}
+
+
+#knowledge {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#knowledge > img {
+    padding-top: 20%;
+    width: calc(20vh + 10vmax);
+    height: auto;
+}
+
+
+#text > p:nth-child(4) {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .card {
+        display: none;
+    }
+
+    main {
+        padding: 2vh
+    }
+
+    #text > p:nth-child(4) {
+        display: inline;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    
+    #knowledge > img {
+        width: 40vw;
+        padding-top: 100%;
+    }
+}

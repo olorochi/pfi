@@ -1,0 +1,41 @@
+main {
+    overflow: hidden;
+}
+
+main > div {
+    margin: 2vw;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+main > div, main > div > * {
+    outline: 2px solid;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: purple;
+}
+
+h3, p {
+    padding: 0.5vw 1vw;
+}
+
+div > p, div > h3 {
+    background-color: aquamarine;
+}
+
+div > p:nth-of-type(even), div > h3:nth-of-type(even), div > h3:nth-child(1) {
+    background-color: rgb(0, 255, 76);
+} 
+
+@media only screen and (max-width: 500px) {
+    
+    header > h1 {
+        font-size: 7vw;
+    }
+    
+}

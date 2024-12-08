@@ -28,6 +28,7 @@ ul {
 tr > * {
     border: 2px solid black;
     padding: 1%;
+
 }
 
 table {
@@ -65,6 +66,10 @@ aside > p {
         grid-template-areas: 
             "p p a"
             "t t a";
+    }
+
+    tr > * {
+        min-width: 10vw;
     }
 
 }

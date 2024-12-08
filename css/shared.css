@@ -170,3 +170,11 @@ nav:hover .navmenu {
 .lightgreen {
     color: rgb(0, 252, 147);
 }
+
+@media screen and (max-width: 768px) {
+
+    .navmenu {
+        width: 50vw;
+    }
+    
+}

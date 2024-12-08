@@ -46,7 +46,8 @@ main {
 }
 
 #knowledge > img {
-    padding-top: 20%;
+    border-radius: 50%;
+    margin-top: 20%;
     width: calc(20vh + 10vmax);
     height: auto;
 }
@@ -80,6 +81,6 @@ main {
     
     #knowledge > img {
         width: 40vw;
-        padding-top: 100%;
+        margin-top: 100%;
     }
 }

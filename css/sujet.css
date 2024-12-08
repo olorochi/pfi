@@ -57,7 +57,7 @@ aside > p {
 
 @media screen and (max-width: 900px) {
     
-    img {
+    main img {
         display: none;
     }
 

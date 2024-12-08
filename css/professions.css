@@ -12,14 +12,6 @@ main > div, main > div > * {
     outline: 2px solid;
 }
 
-a {
-    color: coral;
-}
-
-a:hover {
-    color: purple;
-}
-
 h3, p {
     padding: 0.5vw 1vw;
 }
@@ -28,7 +20,7 @@ div > p, div > h3 {
     background-color: aquamarine;
 }
 
-div > p:nth-of-type(even), div > h3:nth-of-type(even), div > h3:nth-child(1) {
+div > p:nth-of-type(odd), div > h3:nth-of-type(odd), div > h3:nth-child(1) {
     background-color: rgb(0, 255, 76);
 } 
 

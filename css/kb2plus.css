@@ -1,18 +1,11 @@
 blockquote {
     max-width: 70vw;
+    margin: 2vw 8vw;
 }
 
-bdo {
+.flexcol {
     display: flex;
     flex-direction: column;
-}
-
-bdo[dir="rtl"] > blockquote {
-    margin-right: 8vw;
-}
-
-bdo[dir="ltr"] > blockquote {
-    margin-left: 8vw;
 }
 
 a {
@@ -23,7 +16,7 @@ a:hover {
     color: purple;
 }
 
-bdo > * {
+main > * {
     padding: 2vw 0vw;
 }
 
